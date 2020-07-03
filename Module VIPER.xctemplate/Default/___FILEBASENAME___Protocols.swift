@@ -9,22 +9,21 @@
 import Foundation
 
 //MARK: - Router
-protocol ___VARIABLE_productName:identifier___RouterProtocol: class {
+protocol ___VARIABLE_productName:identifier___RouterProtocol: AnyObject {
     
 }
+
 //MARK: - Presenter
-protocol ___VARIABLE_productName:identifier___PresenterProtocol: class {
+protocol ___VARIABLE_productName:identifier___PresenterProtocol: AnyObject {
     
 }
 
 //MARK: - Interactor
-protocol ___VARIABLE_productName:identifier___InteractorProtocol: class {
-    
+protocol ___VARIABLE_productName:identifier___InteractorProtocol: AnyObject {
     var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?  { get set }
 }
 
 //MARK: - View
-protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
-    
+protocol ___VARIABLE_productName:identifier___ViewProtocol: AnyObject {
     var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?  { get set }
 }
