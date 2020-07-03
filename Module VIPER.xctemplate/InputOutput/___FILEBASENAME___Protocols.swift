@@ -8,33 +8,33 @@
 
 import Foundation
 
-//MARK: Wireframe -
+//MARK: - Wireframe
 protocol ___VARIABLE_productName:identifier___WireframeProtocol: class {
-
+    
 }
-//MARK: Presenter -
+//MARK: - Presenter
 protocol ___VARIABLE_productName:identifier___PresenterProtocol: class {
-
+    
     var interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol? { get set }
 }
 
-//MARK: Interactor -
+//MARK: - Interactor
 protocol ___VARIABLE_productName:identifier___InteractorOutputProtocol: class {
-
+    
     /* Interactor -> Presenter */
 }
 
 protocol ___VARIABLE_productName:identifier___InteractorInputProtocol: class {
-
+    
     var presenter: ___VARIABLE_productName:identifier___InteractorOutputProtocol?  { get set }
-
+    
     /* Presenter -> Interactor */
 }
 
-//MARK: View -
+//MARK: - View
 protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
-
+    
     var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?  { get set }
-
+    
     /* Presenter -> ViewController */
 }
