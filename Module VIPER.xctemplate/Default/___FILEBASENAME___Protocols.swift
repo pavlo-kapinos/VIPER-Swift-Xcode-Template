@@ -8,8 +8,8 @@
 
 import Foundation
 
-//MARK: - Wireframe
-protocol ___VARIABLE_productName:identifier___WireframeProtocol: class {
+//MARK: - Router
+protocol ___VARIABLE_productName:identifier___RouterProtocol: class {
     
 }
 //MARK: - Presenter
