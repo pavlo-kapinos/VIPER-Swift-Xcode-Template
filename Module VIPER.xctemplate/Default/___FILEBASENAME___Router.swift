@@ -13,8 +13,7 @@ class ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName:ident
     weak var viewController: UIViewController?
     
     static func createModule() -> UIViewController {
-        // Change to get view from storyboard if not using programmatic UI
-        let view = ___VARIABLE_productName:identifier___ViewController(nibName: nil, bundle: nil)
+        let view = ___VARIABLE_productName:identifier___ViewController(nibName: "___VARIABLE_productName:identifier___ViewController", bundle: nil)
         let interactor = ___VARIABLE_productName:identifier___Interactor()
         let router = ___VARIABLE_productName:identifier___Router()
         let presenter = ___VARIABLE_productName:identifier___Presenter(interface: view, interactor: interactor, router: router)
