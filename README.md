@@ -1,5 +1,9 @@
-##### Note: This is upadated version of https://github.com/Juanpe/Swift-VIPER-Module, with applied pull-requests and fixes.  
+###### Note: This is upadated version of https://github.com/Juanpe/Swift-VIPER-Module with applied pending pull-requests and small fixes.  
   
+##  
+
+##  
+
 ##  
 
 ![](assets/header.jpg)
